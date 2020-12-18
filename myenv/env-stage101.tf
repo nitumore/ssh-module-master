@@ -1,5 +1,5 @@
 module "stage101" {
-  source                 = "git::ssh://git@github.com/slumbang129/inner-ssh-module"
+  source                 = "git::ssh://git@github.com/nitumore/inner-ssh-module"
   cidr_block             = "10.0.0.0/16"
   vpc_id                 = module.stage101.vpc_id
   subnet_cidr            = "10.0.1.0/24"
